@@ -11,9 +11,9 @@ namespace LinkedList
         static void Main(string[] args)
         {
             SimpleLinkedList list = new SimpleLinkedList();
-            list.Addnote(56);
-            list.Addnote(30);
             list.Addnote(70);
+            list.Addnote(30);
+            list.Addnote(56);
             list.Display();
 
         }
