@@ -11,14 +11,15 @@ namespace LinkedList
         static void Main(string[] args)
         {
             SimpleLinkedList list = new SimpleLinkedList();
-            /* list.Addnote(70);
-             list.Addnote(30);
-             list.Addnote(56);
-             list.Display();*/
-            list.Addreverse(70);
-            list.Addreverse(30);
-            list.Addreverse(56);
+            list.Addnote(56);
+            //list.Addnote(30);
+            list.Addnote(70);
+
+
+            list.Insert(2, 30);
             list.Display();
+
+
 
         }
     }
